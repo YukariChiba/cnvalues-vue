@@ -1,5 +1,5 @@
 <template>
-  <v-card class="my-4">
+  <v-card>
     <v-card-subtitle class="pb-0">特殊派别</v-card-subtitle>
     <v-card-actions>
       <v-list :three-line="!(tags(axis_result).length == 0)">

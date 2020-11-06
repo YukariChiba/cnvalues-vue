@@ -1,13 +1,21 @@
 <template>
-  <div>
+  <div class="result">
     <v-row>
-      <v-col cols="12" md="6">
-        <Description :axis_result="result" />
-        <Tags :axis_result="result" />
-        <Fabs />
+      <v-col cols="12" md="6" class="pb-0 py-1">
+        <v-row class="pa-0">
+          <v-col cols="12" class="pt-0 py-1">
+            <Description :axis_result="result" />
+          </v-col>
+          <v-col cols="12">
+            <Tags :axis_result="result" />
+          </v-col>
+        </v-row>
       </v-col>
-      <v-col cols="12" md="6"><Bar :axis_result="result" /> </v-col>
+      <v-col class="py-1" cols="12" md="6">
+        <Bar :axis_result="result" />
+      </v-col>
     </v-row>
+    <Fabs />
   </div>
 </template>
 
@@ -27,4 +35,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.result {
+  min-height: 90vh;
+}
+</style>

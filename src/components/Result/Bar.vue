@@ -1,5 +1,5 @@
 <template>
-  <v-card class="my-4">
+  <v-card>
     <v-card-text>
       <v-row>
         <v-col v-for="bar in bars" :key="bar.name" cols="12"

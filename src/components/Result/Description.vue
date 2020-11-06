@@ -1,5 +1,5 @@
 <template>
-  <v-card class="my-4">
+  <v-card>
     <v-card-subtitle class="pb-0">最接近的意识形态</v-card-subtitle>
     <v-card-title class="pt-0">
       {{ result(axis_result).name }}
