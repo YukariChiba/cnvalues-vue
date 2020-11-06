@@ -1,0 +1,70 @@
+[
+  {
+    "name": "经济",
+    "left_title": "平等",
+    "right_title": "市场",
+    "desc": [
+      "共产主义",
+      "社会主义",
+      "偏向平等",
+      "中立",
+      "偏向市场",
+      "资本主义",
+      "自由放任"
+    ],
+    "logo_left": "equality",
+    "logo_right": "market",
+    "id": "econ",
+    "color_left": "red",
+    "color_right": "yellow"
+  },
+  {
+    "name": "政治",
+    "left_title": "自由",
+    "right_title": "权威",
+    "desc": [
+      "无政府主义",
+      "自由意志主义",
+      "偏向自由",
+      "中立",
+      "偏向专制",
+      "威权主义",
+      "极权主义"
+    ],
+    "logo_left": "liberty",
+    "logo_right": "authority",
+    "id": "govt",
+    "color_left": "blue",
+    "color_right": "brown"
+  },
+  {
+    "name": "社会",
+    "left_title": "进步",
+    "right_title": "传统",
+    "desc": ["变革", "进步", "偏向改良", "中立", "偏向保守", "传统", "反动"],
+    "logo_left": "progress",
+    "logo_right": "tradition",
+    "id": "scty",
+    "color_left": "purple",
+    "color_right": "cyan"
+  },
+  {
+    "name": "环境",
+    "left_title": "生态",
+    "right_title": "生产",
+    "desc": [
+      "深绿",
+      "生态主义",
+      "环保优先",
+      "中立",
+      "发展优先",
+      "生产主义",
+      "环保怀疑主义"
+    ],
+    "logo_left": "ecology",
+    "logo_right": "production",
+    "id": "envo",
+    "color_left": "green",
+    "color_right": "grey"
+  }
+]
