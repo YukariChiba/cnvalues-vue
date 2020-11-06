@@ -48,7 +48,7 @@ export default {
       this.show = false;
       this.$store.commit("init");
       this.$router.push("/quiz");
-    },
+    }
   },
   computed: {
     show: {
@@ -57,9 +57,9 @@ export default {
       },
       set(val) {
         return this.$store.commit("updateNotice", val);
-      },
-    },
-  },
+      }
+    }
+  }
 };
 </script>
 

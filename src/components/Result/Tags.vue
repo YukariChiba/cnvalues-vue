@@ -32,7 +32,7 @@ export default {
   methods: {
     tags(arr) {
       let specialitems = [];
-      specials.forEach((item) => {
+      specials.forEach(item => {
         let value = arr[item.id];
         if (!isNaN(value)) {
           if (value >= 66) {
@@ -44,8 +44,8 @@ export default {
         }
       });
       return specialitems;
-    },
-  },
+    }
+  }
 };
 </script>
 

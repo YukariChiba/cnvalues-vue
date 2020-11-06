@@ -31,7 +31,7 @@ export default {
   methods: {
     start() {
       this.$store.commit("updateNotice", true);
-    },
+    }
   }
 };
 </script>

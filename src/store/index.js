@@ -11,7 +11,7 @@ export default new Vuex.Store({
     questions: questions.sort(() => Math.random() - 0.5),
     choices: new Array(questions.length).fill(0),
     currentQuestion: 0,
-    scores: [],
+    scores: []
   },
   mutations: {
     updateNotice(state, val) {
@@ -33,7 +33,7 @@ export default new Vuex.Store({
     end(state, val) {
       state.choices[state.currentQuestion] = val;
     },
-    calculate: (state) => {
+    calculate: state => {
       let scores = {};
       for (let q of state.questions) {
         for (let axis in q.effect) {
@@ -57,21 +57,21 @@ export default new Vuex.Store({
         scores[axis] = Math.round(scores[axis] * 100);
       }
       state.scores = scores;
-    },
+    }
   },
   getters: {
-    currentQuestion: (state) => {
+    currentQuestion: state => {
       return questions[state.currentQuestion];
     },
-    questionsLength: (state) => {
+    questionsLength: state => {
       return state.questions.length;
     },
-    fullyAnswered: (state) => {
+    fullyAnswered: state => {
       return state.currentQuestion + 1 == state.questions.length;
     },
-    calculate: (state) => {
+    calculate: state => {
       return state.scores;
-    },
+    }
   },
-  modules: {},
+  modules: {}
 });

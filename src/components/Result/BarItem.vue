@@ -56,8 +56,8 @@ export default {
       } else {
         return "";
       }
-    },
-  },
+    }
+  }
 };
 </script>
 

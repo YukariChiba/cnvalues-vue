@@ -2,10 +2,15 @@
   <v-card class="my-4">
     <v-card-subtitle class="pb-0">最接近的意识形态</v-card-subtitle>
     <v-card-title class="pt-0">
-      {{ result(axis_result).name
-      }}<v-btn icon :href="result(axis_result).link">
-        <v-icon>mdi-wikipedia</v-icon>
-      </v-btn>
+      {{ result(axis_result).name }}
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon :href="result(axis_result).link" v-bind="attrs" v-on="on">
+            <v-icon>mdi-wikipedia</v-icon>
+          </v-btn>
+        </template>
+        <span>百科介绍</span>
+      </v-tooltip>
     </v-card-title>
     <v-card-text v-html="result(axis_result).desc" />
   </v-card>
@@ -34,8 +39,8 @@ export default {
         }
       }
       return ideologies[min_index];
-    },
-  },
+    }
+  }
 };
 </script>
 

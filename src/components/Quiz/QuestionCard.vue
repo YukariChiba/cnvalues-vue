@@ -37,8 +37,8 @@ export default {
     },
     percent() {
       return (100 * this.now_cnt) / this.$store.getters.questionsLength;
-    },
-  },
+    }
+  }
 };
 </script>
 

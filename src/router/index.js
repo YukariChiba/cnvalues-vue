@@ -8,18 +8,18 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: Home
   },
   {
     path: "/quiz",
     name: "Quiz",
-    component: () => import("../views/Quiz.vue"),
+    component: () => import("../views/Quiz.vue")
   },
   {
     path: "/result",
     name: "Result",
-    component: () => import("../views/Result.vue"),
-  },
+    component: () => import("../views/Result.vue")
+  }
 ];
 
 const router = new VueRouter({
@@ -32,7 +32,7 @@ const router = new VueRouter({
     } else {
       return { x: 0, y: 0 };
     }
-  },
+  }
 });
 
 export default router;

@@ -17,6 +17,6 @@ export default {
   components: { QuestionCard, AnswerCard },
   mounted() {
     //this.$store.commit("init");
-  },
+  }
 };
 </script>

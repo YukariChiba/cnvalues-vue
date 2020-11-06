@@ -19,28 +19,28 @@ export default {
   data: () => ({
     links: [
       {
-        name: "8values",
+        name: "8values"
       },
       {
-        name: "LeftValues",
+        name: "LeftValues"
       },
       {
-        name: "RightValues",
+        name: "RightValues"
       },
       {
-        name: "PolitiScales",
+        name: "PolitiScales"
       },
       {
-        name: "The Political Compass",
+        name: "The Political Compass"
       },
       {
-        name: "北大未名版中国政治坐标系测试",
+        name: "北大未名版中国政治坐标系测试"
       },
       {
-        name: "Yet Another Values Test",
-      },
-    ],
-  }),
+        name: "Yet Another Values Test"
+      }
+    ]
+  })
 };
 </script>
 

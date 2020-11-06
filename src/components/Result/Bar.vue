@@ -17,7 +17,7 @@ import bars from "@/data/bars";
 export default {
   components: { BarItem },
   data: () => ({
-    bars: bars,
+    bars: bars
   }),
   props: ["axis_result"]
 };
