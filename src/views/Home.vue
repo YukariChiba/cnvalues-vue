@@ -12,6 +12,8 @@
           CN Values 是基于 8values 源代码开发制作的娱乐性政治立场测试。
           <br />
           为了使测试更贴近国人，在参考数个其他测试后，以中国当下语境为背景重新编制了测试题。
+	  <br />
+          本版本是基于原 cnvalues repo 的 vue 重制版，提供更佳的使用体验。
         </v-card-subtitle>
       </v-col>
     </v-row>

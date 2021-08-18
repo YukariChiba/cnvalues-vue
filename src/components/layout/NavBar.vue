@@ -16,7 +16,7 @@
         <v-tooltip bottom>
           <template v-slot:activator="{ on, attrs }">
             <v-btn
-              href="https://github.com/SteveCharlesYang/cnvalues"
+              href="https://github.com/YukariChiba/cnvalues-vue"
               target="_blank"
               icon
               v-bind="attrs"
