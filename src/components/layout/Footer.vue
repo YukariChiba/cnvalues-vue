@@ -1,5 +1,10 @@
 <template>
-  <v-footer dark padless class="primary lighten-1 white--text text-center">
+  <v-footer
+    dark
+    padless
+    class="primary white--text text-center"
+    :class="$vuetify.theme.dark ? 'darken-1' : 'lighten-1'"
+  >
     <v-card-text>
       <div>本测试受以下测试启发完成：</div>
       <v-btn text v-for="link in links" :key="link.name">{{ link.name }}</v-btn>
