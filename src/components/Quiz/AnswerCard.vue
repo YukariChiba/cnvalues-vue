@@ -4,6 +4,7 @@
       v-for="o in options"
       :key="o.name"
       :dark="!('nodark' in o)"
+      :outlined="$vuetify.theme.dark"
       x-large
       block
       :color="o.color"
